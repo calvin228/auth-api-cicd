@@ -45,7 +45,7 @@ jobs:
         CI: true
         HOST: localhost
         PORT: 5000
-        PGHOST: localhost
+        PGHOST: auth-api.c900iqui67es.ap-southeast-1.rds.amazonaws.com
         PGPORT: 5432
         PGUSER: postgres
         PGPASSWORD: postgres
