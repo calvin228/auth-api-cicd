@@ -1,5 +1,8 @@
 /* istanbul ignore file */
 const pool = require('../src/Infrastructures/database/postgres/pool');
+const config = require('../src/Commons/config');
+
+console.log('config.database', config.database);
 
 const UsersTableTestHelper = {
   async addUser({
